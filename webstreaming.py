@@ -17,7 +17,6 @@ from threading import Thread
 import time
 import cv2
 import dlib
-
 # initialize the output frame and a lock used to ensure thread-safe
 # exchanges of the output frames (useful for multiple browsers/tabs
 # are viewing tthe stream)
@@ -35,14 +34,10 @@ time.sleep(2.0)
 
 
 def sound_alarm(status=False):
-    print("hello")
-    file1 = open("static/alarm.txt", "w")
     if status is False:
-        file1.write("OK")
+        print("OK")
     else:
-        print("came here")
-        file1.write("ALARM")
-    file1.close()
+        print("ALARM")
 
 
 def eye_aspect_ratio(eye):

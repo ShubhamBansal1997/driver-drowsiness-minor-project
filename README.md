@@ -1,6 +1,9 @@
 Driver Drowsiness Detection 
 ==============================
 
+.. image:: https://en.cryptobadges.io/badge/small/bc1qysxlz0p9nlcyndeysqltdhelwpdhurglgxz96x 
+	:target: https://en.cryptobadges.io/donate/bc1qysxlz0p9nlcyndeysqltdhelwpdhurglgxz96x
+
 
 __Version:__ 0.0.0
 
